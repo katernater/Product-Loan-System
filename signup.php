@@ -37,7 +37,6 @@
 				<option value ="ONE">Contact One</option>
 				<option value ="TWO">Contact Two</option>
 				<option value ="THREE">Contact Three</option>
-				<option value ="SIMON">Simon Marshall</option>
 			</select>
  			<button type = 'submit' name='submit'>
 				Sign Up
