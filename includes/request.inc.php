@@ -51,8 +51,8 @@ if (isset($_POST['request'])){
 						$msg10 = "".$row2['user_address2']."\n";
 						$msg11= "".$row2['user_city']."\n";
 						$msg12=  "".$row2['user_state'].", ".$row2['user_postcode']."\n";
-						$msg13=  "Wacom Contact: ".$row2['user_contact']."\n";
-						$wcontact = $row2['user_contact'];
+						$msg13=  "Contact: ".$row2['user_contact']."\n";
+						$contact = $row2['user_contact'];
 						
 					}
 				
@@ -65,19 +65,19 @@ if (isset($_POST['request'])){
 		$msg = "A loan request has been received. To accept the request, log in to WEBSITE under the administrators account, and submit the product that has been sent.\n Request Details \n".$requester." Request Date: ".$date."\n Requester: ".$requester.
 		"\n Product: ".$product."\n Date Requested: ".$date.$msg3.$msg4.$msg5.$msg6.$msg7.$msg8.$msg9.$msg10.$msg11.$msg12.$msg13."";
 	
-		if ($wcontact == 'ONE'){
-		     $wmail = 'ONE@email.com';
-		} else if ($wcontact == 'TWO'){
-		    $wmail = 'TWO@email.com';
-		}	else if ($wcontact == 'THREE'){
-		    $wmail = 'THREE@email.com';
+		if ($contact == 'ONE'){
+		     $mail = 'ONE@email.com';
+		} else if ($contact == 'TWO'){
+		    $mail = 'TWO@email.com';
+		}	else if ($contact == 'THREE'){
+		    $mail = 'THREE@email.com';
 		}
 		
 		$headers = "From: ".$from;
 		$msg2 = wordwrap($msg, 70);
 		mail($to, $subject, $msg, $headers);
 		
-		mail($wmail, $subject, $msg, $headers);
+		mail($mail, $subject, $msg, $headers);
 		
 		$to2 = $email.
 		$usr = "Your loan request has been received. You will be notified by email once your request is approved. If1 the unit you have requested is unavailable or is a blocked out time on the calender we will contact you with an estimate of when a unit will be available and a list of alternative available units.";
