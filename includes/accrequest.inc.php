@@ -7,7 +7,7 @@ if (isset($_POST['reqsend'])){
 	$id = mysqli_real_escape_string($conn, $_POST['id']);
 	$product = mysqli_real_escape_string($conn, $_POST['accept']);
 	$user = mysqli_real_escape_string($conn, $_POST['contact']);
-	$wacom = mysqli_real_escape_string($conn, $_POST['wacom'])
+	$employee = mysqli_real_escape_string($conn, $_POST['employee'])
 	$date = mysqli_real_escape_string($conn, $_POST['date']);
 //Error Handling
 //Empty input
@@ -54,7 +54,7 @@ if (isset($_POST['reqsend'])){
 						mysqli_query($conn, $sql3);
 						$sql4 = "UPDATE products SET product_return = '$date' WHERE product_serial ='$product'";
 						mysqli_query($conn, $sql4);
-						$sql6 = "UPDATE products SET product_contact = '$wacom' WHERE product_serial = '$product'";
+						$sql6 = "UPDATE products SET product_contact = '$employee' WHERE product_serial = '$product'";
 						$sql5 = "DELETE FROM requests WHERE request_id = '$id'";
 						mysqli_query($conn, $sql5);
 						exit();
