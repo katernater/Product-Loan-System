@@ -1,0 +1,613 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.index{
+	margin: auto;
+	min-height: 500px;
+	background-color: #fafafa;
+	margin-top: 15px;
+}
+
+.info {
+	float: left;
+	width: 400px;
+	margin-left: -120px; 
+	
+}
+.index_info {
+	float: right;
+	margin-right: 50px;
+	margin-top: 60px;
+}
+
+h4 {
+	border: 1px solid black;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	margin: 1px 0 0 0;
+	cursor: pointer;
+}
+.hiddenContent {
+	display: none;
+	margin-left: 10px;
+}
+
+.requests {
+	margin: auto;
+	width: 500px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+}
+
+a{
+	text-decoration: none;
+}
+
+body {
+	background-color: #e5e5e5;
+	
+}
+
+.wrap{
+	margin: auto;
+	padding: 10px;
+	width: 75%;
+	background-color: #5C5C5C;
+}
+
+.main-wrapper{
+}
+
+header nav {
+	height: 140px;
+	background-color: #1ba8de;
+	margin: auto;
+	
+}
+
+header nav ul{
+	float:left;
+	
+}
+
+header nav ul li{
+	float:left;
+	list-style:none;
+	
+}
+
+header nav ul li a{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+	
+}
+
+header .nav_login {
+	float: right;
+	margin-right: 50px; 
+	margin-top: 20px; 
+}
+
+header .nav_login form {
+	float: left;
+	padding-top: 15px;
+}
+
+header .nav_login form input{
+	float: left;
+	width: 140px;
+	height: 30px;
+	padding: 0px 10px;
+	margin-right: 10px;
+	border: none;
+	background-color: #ccc;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	color: #111;
+	line-height: 30px;
+	
+}
+
+.enter{
+	float: left;
+	width: 60px;
+	height: 30px;
+	margin-right: 10px;
+	border: none;
+	background-color: #F3F3F3;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 14px;
+	color: #111;
+	cursor: pointer;
+	text-decoration: none;
+	
+}
+.enter:hover{
+	background-color: #ccc;
+	
+}
+
+header .nav_login a{
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: none;
+	float: left;
+	background-color: #fff;
+	cursor: pointer;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+	
+}
+
+.main-container{
+	padding-top:40px; 
+}
+
+.index h2{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 30px;
+	color: #111;
+	line-height: 50px;
+
+}
+
+#sign{
+	width: 60px;
+	height: 10px;
+	margin-top: 15px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 30px;
+	
+
+}
+
+.navi li {
+	margin-left: 15px;
+
+}
+.navi li a {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #FFFFFF;
+	margin: 3px;
+}
+
+.navi li a:hover {
+	text-decoration:underline;
+	text-decoration-color: #0F4E74;
+}
+
+/*signup.php*/
+
+.signup-form{
+	width: 400px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.signup-form input{
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+
+.signup-form select{
+	width: 100%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.signup-form button{
+	display:block;
+	margin: auto;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.signup-form button:hover{
+
+	background-color: #99D1E2;
+
+}
+
+
+.footer{
+	margin: auto;
+	margin-top: 15px;
+	background-color: #1ba8de;
+	height: 50px;
+	
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 12px;
+	color: #111;
+}
+
+.footer p {
+	width: 300px;
+	float:right;
+}
+
+
+
+/* Admin Page */
+
+.calendar{
+	width:800px;
+	margin-left:auto;
+    margin-right:auto;
+}
+
+table {
+	margin: auto;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 15px;
+	
+}
+
+
+
+tr:hover{
+	background-color: #D4D4D4;
+}
+
+th {
+	background-color: #D4D4D4;
+}
+
+table, th, td {
+	border-bottom: 1px solid #ddd;
+	border-collapse: collapse;
+	text-align: left;
+	
+}
+
+.options {
+	margin: auto;
+	margin-bottom: 20px; 
+	margin-left: 105px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 18px;
+}
+
+.options a {
+	padding: 5px;
+	background-color: #1ba8de;
+	color: black;
+}
+
+.options a:hover {
+	background-color: #99D1E2;
+}
+
+/*AddProduct Page*/
+
+.addproduct-form{
+	width: 400px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.addproduct-form input{
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.addproduct-form select{
+	width: 100%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.addproduct-form button{
+	display:block;
+	margin: auto;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.addproduct-form button:hover{
+
+	background-color: #99D1E2;
+
+}
+
+.request-form{
+	width: 400px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.request-form input{
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.request-form select{
+	width: 100%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.request-form button{
+	display:block;
+	margin: auto;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.request-form button:hover{
+
+	background-color: #99D1E2;
+
+}
+
+
+.removeproduct-form{
+	width: 400px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.removeproduct-form input{
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.removeproduct-form select{
+	width: 100%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.removeproduct-form button{
+	display:block;
+	margin: auto;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.removeproduct-form button:hover{
+
+	background-color: #99D1E2;
+
+}
+
+.removesku-form{
+	width: 400px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.removesku-form input{
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.removesku-form select{
+	width: 100%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.removesku-form button{
+	display:block;
+	margin: auto;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.removesku-form button:hover{
+
+	background-color: #99D1E2;
+
+}
+
+
+.updateproduct-form{
+	width: 400px;
+	margin: auto;
+	padding-top: 30px;
+}
+
+.updateproduct-form input{
+	width: 90%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.updateproduct-form select{
+	width: 100%;
+	height: 40px;
+	padding: 0px 5%;
+	margin-bottom: 4px;
+	border: none;
+	background-color: #fff;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: #111;
+	line-height: 40px;
+}
+
+.updateproduct-form button{
+	display:block;
+	margin: auto;
+	width: 30%;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.updateproduct-form button:hover{
+
+	background-color: #99D1E2;
+
+}
+
+
+.backbutton{
+	display:block;
+	margin-left: 20px;
+	margin-top: 50px;
+	width: 120px;
+	height: 40px;
+	border: none;
+	background-color: #1ba8de;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 16px;
+	color: black;
+	cursor: pointer;
+}
+
+.backbutton:hover{
+
+	background-color: #99D1E2;
+
+}
+
+.checkbox{
+	    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.check {
+	    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
